@@ -1,0 +1,6 @@
+Trabalho de Desenvolvimento Web I
+
+Nomes: Felipe Valeriano e Geovanna Gabrielle
+prof: Luciana 
+
+Tema: Recriar o designer e as sinopse de filmes e séries das plataformas: netflix, amazon prime e Disney plus

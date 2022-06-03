@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href=" https://i.pinimg.com/originals/87/70/5a/87705a2ddfc57918abcc7bdb574aec94.png">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>AMAZON PAGE</title>
+  </head>
+  <body style="background-color: rgb(1, 37, 83);">
+
+    <nav style = "background-color: rgb(0, 0, 0);"class="navbar navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style = "color: rgb(255, 255, 255); font-size: 27px;">PRIME VIDEO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+            </ul>
+            <form class="d-flex">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" style="color:white" href="#">EXCLUSIVOS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" style="color:white">FILMES POPULARES</a>
+                    </li>
+                   
+                    <li class="nav-item">
+                      <a class="nav-link disabled" style="color:white">SÉRIES POPULARES</a>
+                    </li>
+                    <li class="nav-item">
+                    <form action="menu.html">
+                        <button type="submit" class="btn btn-danger" style = "background-color: rgb(242, 153, 0);">VOLTAR MENU</button>
+                        </form>
+                      </li>
+                  </ul>
+       
+            </form>
+
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide  col-11 m-auto" data-bs-ride="carousel" styles="height" >
+    
+        <div class="carousel-inner" style = "height: 250px;">
+          <div class="carousel-item active">
+            <div class="card bg-dark text-white">
+              <img src="https://gmedia.playstation.com/is/image/SIEPDC/amazon-prime-page-banner-desktop-01-en-12nov20?$native--t$" class="d-block w-100" alt="...">
+              <div class="card-img-overlay" >
+                <br>
+                        
+
+                <h6  style = "font-size: 40px; font-family:cursive"class="card-title">NOVIDADES NA PLATAFORMA</h6>
+                <p class="card-text">Assine a paramount por apenas R$19.90</p>
+          
+                <button type="button" class="btn btn-danger" style = "background-color: rgb(242, 153, 0); font-size: 15px;">ASSINAR AGORA</button>
+              </div>
+            </div>
+         
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white">
+              <img src="https://nerdbreak.com.br/wp-content/uploads/2021/06/DOM-scaled.jpg" class="d-block w-100" alt="...">
+              <div class="card-img-overlay" >
+                <br>
+                        
+                <h6  style = "font-size: 40px; font-family:cursive"class="card-title">DOM</h6>
+                <p class="card-text">A série utiliza como fonte tanto os relatos de Victor quanto o livro de Tony Bellotto —também intitulado "Dom"— lançado em 2020. A obra literária alterna narrativas sobre a trajetória de Pedro no crime e passagens sobre o próprio Victor. Tudo de forma romanceada.</p>
+                <p class="card-text">2018 | 14 | 4 temporadas | Séries dos EUA</p>
+                <button type="button" class="btn btn-danger" style =  "background-color: rgb(242, 153, 0);">ASSISTIR AGORA</button>
+              </div>
+            </div>
+         
+          </div>
+          <div class="carousel-item">
+            <div class="card bg-dark text-white">
+              <img src="https://wallpapercave.com/wp/wp8385871.jpg" class="d-block w-100" alt="...">
+              <div class="card-img-overlay" >
+                <br>
+                        
+
+                <h6  style = "font-size: 40px; font-family:cursive"class="card-title">THE WILDS</h6>
+                <p class="card-text">The Wilds é uma série dramática de TV americana criada por Sarah Streicher que foi lançada no Prime Video em 11 de dezembro de 2020. A série é sobre um grupo de jovens cujo avião cai, deixando-as presas em uma ilha deserta.</p>
+                <p class="card-text">2018 | 14 | 4 temporadas | Séries dos EUA</p>
+                <button type="button" class="btn btn-danger" style =  "background-color: rgb(242, 153, 0);">ASSISTIR AGORA</button>
+              </div>
+          </div>
+          </div></div></div>
+
+
+          <!---Multiitems (em teste ainda)-->
+
+          <style media="screen">
+            .carousel-cell {
+              width: 150px;
+              margin-right: 15px;
+              height: 200px;
+              }
+          
+              /* cell number */
+              .carousel-cell:before {
+                display: block;
+              }
+            </style>
+
+
+<div>
+  <br>
+<h5 class=" col-11 m-auto" style="color: white;" >FILMES POPULARES</h5>
+<br>
+<div class="carousel col-11 m-auto" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+  <div class="carousel-cell ">
+    <img class="w3-image"  src="https://br.web.img3.acsta.net/pictures/22/02/10/10/17/1301861.jpg" data-bs-toggle="modal" data-bs-target="#capa01">
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image" src="https://seuladogeek.com.br/wp-content/uploads/2022/03/Uncharted-Fora-do-Mapa-Filme-767x957.jpg" data-bs-toggle="modal" data-bs-target="#capa02">
+
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image" src="https://images-na.ssl-images-amazon.com/images/I/816msLzMa9L.jpg" data-bs-toggle="modal" data-bs-target="#capa03">
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://ingresso-a.akamaihd.net/b2b/production/uploads/movie/poster/519/Agente_das_Sombras_MoveID_640x940_Data.jpg?impolicy=movieid" data-bs-toggle="modal" data-bs-target="#capa04">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://topdezfilmes.info/wp-content/uploads/2022/03/deep_water_ver2.jpg" data-bs-toggle="modal" data-bs-target="#capa05">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image"  src="https://br.web.img3.acsta.net/pictures/21/06/01/21/29/5026941.jpg" data-bs-toggle="modal" data-bs-target="#capa06">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://br.web.img3.acsta.net/pictures/22/04/04/19/21/2662915.jpg" data-bs-toggle="modal" data-bs-target="#capa07">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://br.web.img3.acsta.net/pictures/21/10/13/21/56/4755833.jpg" data-bs-toggle="modal" data-bs-target="#capa08">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://static.wikia.nocookie.net/universocinematograficomarvel/images/3/38/Homem-Aranha_-_Sem_Volta_Para_Casa_-_P%C3%B4ster_Nacional_-_03.jpg/revision/latest?cb=20211127230334&path-prefix=pt" data-bs-toggle="modal" data-bs-target="#capa09">
+
+</div>
+</div>
+
+
+
+<div>
+  <br>
+<h5 class=" col-11 m-auto" style="color: white;" >SÉRIES POPULARES</h5>
+<br>
+<div class="carousel col-11 m-auto" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+  <div class="carousel-cell ">
+    <img class="w3-image" src="https://noticiasdatv.uol.com.br/media/_versions/recomenda/this-is-us-poster-season-4_fixed_recomenda_big.jpg" data-bs-toggle="modal" data-bs-target="#capa11">
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image" src="https://br.web.img2.acsta.net/pictures/19/11/08/21/00/3193634.jpg" data-bs-toggle="modal" data-bs-target="#capa12">
+
+  </div>
+  <div class="carousel-cell">
+    <img class="w3-image" src="https://br.web.img3.acsta.net/pictures/21/06/09/15/12/0018222.jpg" data-bs-toggle="modal" data-bs-target="#capa13">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://aventurasnahistoria.uol.com.br/media/uploads/amazon/a-roda-do-tempo_1.jpg" data-bs-toggle="modal" data-bs-target="#capa14">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://br.web.img3.acsta.net/pictures/22/02/23/19/27/5104883.jpg" data-bs-toggle="modal" data-bs-target="#capa15">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://limaomecanico.com.br/wp-content/uploads/2020/12/the-wilds-vidas-selvagens.jpg" data-bs-toggle="modal" data-bs-target="#capa16">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://m.media-amazon.com/images/I/41--HEdyX0S.jpg"data-bs-toggle="modal" data-bs-target="#capa17">
+
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src=" https://assets.b9.com.br/wp-content/uploads/2021/09/nove-desconhecidos-poster.jpg"data-bs-toggle="modal" data-bs-target="#capa18">
+ 
+</div>
+<div class="carousel-cell">
+  <img class="w3-image" src="https://br.web.img3.acsta.net/pictures/21/12/03/10/38/4833003.jpg" data-bs-toggle="modal" data-bs-target="#capa19">
+
+</div>
+</div>
+
+
+
+<div class="modal fade" id="capa01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Morbius</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >O bioquímico Michael Morbius tenta curar-se de uma doença rara no sangue mas, sem perceber, ele fica infectado com uma forma de vampirismo.</p>
+       <img src="https://sm.ign.com/ign_br/news/m/morbius-ex/morbius-exclusive-watch-the-first-9-minutes-of-the-sony-marv_ap9g.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Uncharted: Fora do Mapa</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Nathan Drake e seu parceiro canastrão Victor "Sully" Sullivan embarcam em uma perigosa busca para encontrar o maior tesouro jamais encontrado. Enquanto isso, eles também rastreiam pistas que podem levar ao irmão perdido de Nathan.</p>
+       <img src="https://www.geekhere.com.br/wp-content/uploads/2022/01/uncharted-tom-holland-pendurado-cartaz.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Os Caras Malvados </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Depois de uma vida inteira de assaltos lendários, os notórios criminosos Sr. Lobo, Sr. Cobra, Sr. Piranha, Sr. Tubarão e Srta. Tarântula são finalmente capturados. Para evitar uma sentença de prisão, os bandidos animais devem realizar seu golpe mais desafiador até agora - tornando-se cidadãos-modelo. Sob a tutela de seu mentor, Professor Marmelada, a duvidosa gangue se propõe a enganar o mundo e mostrar que está se tornando boa.</p>
+       <img src="https://www.boqnews.com/wp-content/uploads/2022/03/os-caras-mavados.jpeg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Agente das Sombras </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Travis Block trabalha para o FBI, mas não é um agente comum. Ele se move pelo mundo das sombras, pelos bastidores, ajudando agentes secretos que se veem em uma situação da qual não conseguem escapar. Ele acaba envolvido em uma conspiração quando um agente secreto questiona os seus superiores. Agora, cabe a Block encontrar esse sujeito, e também descobrir se não está sendo usado pelo homem em quem confia.</p>
+       <img src="https://cricriticos.com/wp-content/uploads/2022/03/agente-das-sombras-critica-filmes-cricriticos.png" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Deep Water</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Um homem se torna suspeito de assassinato quando os inúmeros amantes de sua mulher começam a morrer.</p>
+       <img src="https://thumbs.web.sapo.io/?W=800&H=0&delay_optim=1&epic=ZDYyYcvi53CRSbWQPMxG1PZYeOxPFF70hCtyOLZL6d5yVuSKLOqXT9O8BbK5IPIFsjyObh231MLEIVWXqfBYJrRQrrPfCRk2jgfSIAido6FvRpM=" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa06" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Infiltrado</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Harry, conhecido apenas como H, é um homem misterioso que trabalha para uma empresa de carros-fortes e movimenta grandes quantias de dinheiro pela cidade de Los Angeles. Quando, ao impedir um assalto, ele surpreende a todos com suas habilidades de combate, suas verdadeiras intenções começam a ser questionadas e um plano maior é revelado.</p>
+       <img src="https://cinejardins.com.br/wp-content/uploads/2021/08/cenas_infiltrado-4.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa07" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Sing 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Na glamourosa cidade de Redshore, Buster Moon e a galera enfrentam seus medos, fazem novos amigos e superam seus limites em uma jornada para convencer o recluso astro Clay Calloway a subir aos palcos novamente.</p>
+       <img src="https://uploads.metropoles.com/wp-content/uploads/2021/06/25155129/Sing-2.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa08" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Pânico 5 </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Vinte e cinco anos após uma série de crimes brutais chocar a tranquila Woodsboro, um novo assassino se apropria da máscara de Ghostface e começa a perseguir um grupo de adolescentes para trazer à tona segredos do passado mortal da cidade.</p>
+       <img src="https://pipocasclub.com.br/wp-content/uploads/2020/08/panico5eelnco.jpeg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa09" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Homem-Aranha: Sem Volta para Casa </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >O Homem-Aranha precisa lidar com as consequências da sua verdadeira identidade ter sido descoberta.</p>
+       <img src="https://cdn.ome.lt/JJNpFQM8vzQuWCwCCxjkSVAmJRU=/1200x630/smart/extras/conteudos/homem-aranha-3-sem-volta-para-casa-imagens-oficiais-tres-homens-aranha_66I7HZK.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Series-->
+
+<div class="modal fade" id="capa11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">This Is Us</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >A história da família Pearson começa em 1979, no dia que os trigêmeos Jack, Kate e Randall chegam em casa da maternidade. Revelações sobre os pais Jack e Rebecca surgem nos momentos de amor, mas também de dor, e moldam para sempre a vida de todos.</p>
+       <img src="https://rotaprincipal.com.br/wp-content/uploads/2018/12/this-is-us-1.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Hanna</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Uma jovem com habilidades extraordinárias tenta escapar da perseguição de um agente da CIA. Ao mesmo tempo, a garota busca entender sua verdadeira identidade e procura entender qual é o seu lugar no mundo.</p>
+       <img src="https://deveserisso.com.br/blog/wp-content/uploads/2020/07/hanna-serie.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Cruel Summer </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Em uma pequena cidade do Texas, uma estudante popular e amada por todos desaparece misteriosamente. Ao mesmo tempo, Jeanette, uma garota excluída e tímida é acusada de estar ligada ao trágico incidente.</p>
+       <img src="https://mixdeseries.com.br/wp-content/uploads/2021/09/Cruel-Summer-2-temporada-696x394.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">A Roda do Tempo </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Moiraine, membro de uma organização mágica, leva cinco jovens em uma jornada cheia de desafios, acreditando que um deles pode ser o Dragão Renascido, um indivíduo poderoso que, segundo a profecia, irá salvar ou destruir o mundo.</p>
+       <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2021/11/blob_b1nz.h960.png" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Sentença</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Heloísa é uma advogada idealista que acredita que qualquer pessoa tem direito a defesa, não importando a gravidade do crime cometido. Mas seus valores são desafiados quando ela se torna a advogada de uma mulher que teria cometido um crime bárbaro.</p>
+       <img src="https://t.ctcdn.com.br/BE4VEztcVvq1sgi7zbYDrjJdDFw=/1400x788/smart/i580752.jpeg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">The Wilds: Vidas Selvagens</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >The Wilds é uma série de televisão via streaming dramática norte-americana criada por Sarah Streicher que foi lançada no Amazon Prime Video em 11 de dezembro de 2020. A série é sobre um grupo de jovens tentando sobreviver em uma ilha deserta após um acidente de avião.</p>
+       <img src="https://kanto.legiaodosherois.com.br/w760-h398-cfill/wp-content/uploads/2020/11/legiao_TSkIa8wBJUqH.jpg.jpeg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Dom</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Victor é um policial que dedica a vida na luta contra as drogas, mas seu filho Pedro vai de um jovem usuário de cocaína a um dos mais procurados criminosos do Rio de Janeiro.</p>
+       <img src="https://veja.abril.com.br/wp-content/uploads/2021/06/DOM_SerendipityInc_28_LC_01163.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Nove Desconhecidos </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >Nove pessoas problemáticas se hospedam em um sofisticado retiro de bem-estar que promete uma transformação total. Lá, os hóspedes se entregam a um tratamento radical que ameaça levar esse instável grupo ao limite de suas emoções e medos.</p>
+       <img src="https://br.web.img3.acsta.net/newsv7/21/08/24/19/30/3203051.png" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capa19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color: rgb(8, 11, 223); color:white">
+        <h5 style = "font-family: cursive;" class="modal-title" id="exampleModalLabel">Reacher</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div style="background-color: rgb(7, 14, 51);" class="modal-body">
+       <p style="color: white;"   >O investigador veterano da polícia militar Jack Reacher é falsamente acusado de assassinato e se vê no meio de uma conspiração mortal em Margrave, Geórgia.</p>
+       <img src="https://cdn.ome.lt/OFekwFUgwNm_FdsUwPpQ90k3r5Q=/1200x630/smart/extras/conteudos/prime_video.jpg" class="d-block w-100" alt="...">
+    
+      </div>
+      <div class="modal-footer" style="background-color: rgb(7, 14, 51);">
+        <button style="background-color: rgb(242, 153, 0); color: rgb(255, 255, 255);" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar sinopse</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+ 
+  </body>
+</html>
